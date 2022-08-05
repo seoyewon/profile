@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="서람쥐 - 프로필">
+    <meta property="og:description" content="UI 디자이너 서람쥐">
+    <meta property="og:image" content="공유할 이미지">
+    <title>서예원 - 프로필</title>
+    <style>
+        @font-face {
+            font-family: 'GmarketSansMedium';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            background-color: #313131;
+            font-family: 'GmarketSansMedium';
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .profile {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            border: 2px solid whitesmoke;
+            background-image: url('mimoticon_yewon.png');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color: white;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub {
+            color: white;
+            font-size: 16px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+            background-color: white;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #313131;
+            text-decoration: none;
+            box-shadow: 3px 3px 5px black;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a > img {
+            width: 24px;
+            height: 24px;
+            clear: left;
+            margin: -4px 4px 0 0;
+        }
+        .wrap > a:hover {
+            background-color: #00FF84;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile">
+        </div>
+        <h1 class="main">서람쥐</h1>
+        <p class="sub">디자인... 좋아하세요?</p>
+        <a target="_blank" href="https://l9esign.wixsite.com/ywseo"> 
+            <img src="ico_laptop.png">포트폴리오</a>
+        <a target="_blank" href="https://www.instagram.com/yewon_seo/">
+            <img src="ico_insta.png">인스타그램</a>
+        <a target="_blank" href="https://www.facebook.com/seoyewon">
+            <img src="ico_facebook.png">페이스북</a>
+        <a target="_blank" href="https://www.linkedin.com/in/yewon-seo-43ba84a9/">
+            <img src="ico_linkedin.png">링크드인</a>
+    </div>
+</body>
+</html>
